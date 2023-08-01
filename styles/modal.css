@@ -1,0 +1,118 @@
+.form-group {
+    margin-bottom: 1rem; 
+}
+
+@media (min-width: 768px) {
+    .mr-md-1,
+    .mx-md-1 {
+        margin-right: 0.25rem !important; }
+    .ml-md-1,
+    .mx-md-1 {
+        margin-left: 0.25rem !important; }
+}
+  
+.btn.btn-primary {
+    background: var(--color4) !important;
+    border: 1px solid var(--color4) !important;
+    color: var(--color1) !important;
+}
+
+.btn.btn-primary.btn-outline-primary {
+    border: 1px solid #f9e090;
+    background: transparent;
+    color: #f9e090;
+}
+.btn.btn-primary.btn-outline-primary:hover {
+    border: 1px solid transparent;
+    background: #f9e090;
+    color: #fff;
+}
+  
+/* .modal-dialog {
+    max-width: 500px;
+}
+   */
+.modal-content {
+    border: none;
+    position: relative;
+    padding: 50px !important;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    background: var(--color5);
+    background: -moz-linear-gradient(45deg, var(--color5) 0%, #b035ed 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, var(--color5)), color-stop(100%, #b035ed));
+    background: -webkit-linear-gradient(45deg, var(--color5) 0%, #b035ed 100%);
+    background: -o-linear-gradient(45deg, var(--color5) 0%, #b035ed 100%);
+    background: -ms-linear-gradient(45deg, var(--color5) 0%, #b035ed 100%);
+    background: linear-gradient(45deg, var(--color5) 0%, #b035ed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--color4)', endColorstr='#b035ed', GradientType=1 );
+    -webkit-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+}
+.modal-content h3 {
+    color: var(--color1);
+    font-weight: 300; }
+.modal-content .modal-header {
+    padding: 0;
+    border: none; }
+.modal-content button.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    text-shadow: none;
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 50%;
+}
+.modal-content .modal-body {
+    border: none; }
+.modal-content .modal-footer {
+    border: none;
+    background: #f8f8f8; }
+.modal-content .form-control {
+    background: transparent;
+    border: none;
+    padding: 0;
+    height: 40px;
+    color: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0;
+}
+.modal-content .form-control::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+.modal-content .form-control::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+.modal-content .form-control:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+.modal-content .form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgba(255, 255, 255, 0.8) !important; 
+}
+.modal-content .btn {
+    font-weight: 500;
+    height: 52px;
+}
+
+.modal-content .social {
+    width: 100%;
+}
+.modal-content .social a {
+    width: 100%;
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: var(--color4);
+    background: #fff;
+}
+.modal-content .social a:hover {
+    background: var(--color4);
+    color: #fff;
+}

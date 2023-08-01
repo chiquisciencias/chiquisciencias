@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ChiquisCiencias - Equipo</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Course Project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles/contacto_styles.css">
+</head>
+<body>
+
+<div class="super_container">
+	<!-- Home -->
+	<div class="home">
+		<div class="home_background_container prlx_parent">
+			<div class="home_background prlx" style="background-image:url(images/equipo.jpg);"></div>
+		</div>
+		<div class="home_content">
+			<h1>Contacto</h1>
+		</div>
+	</div>
+
+	<!-- Contact -->
+	<div class="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					
+					<!-- Contact Form -->
+					<div class="contact_form">
+						<div class="contact_title">Contactanos</div>
+
+						<div class="contact_form_container">
+							<form action="post">
+								<input id="contact_form_name" class="input_field contact_form_name" type="text" placeholder="Nombre" required="required" data-error="Name is required.">
+								<input id="contact_form_email" class="input_field contact_form_email mb-4" type="email" placeholder="E-mail" required="required" data-error="Valid email is required.">
+								<textarea id="contact_form_message" class="text_field contact_form_message" name="message" placeholder="Descripci&oacute;n" required="required" data-error="Please, write us a message."></textarea>
+								<button id="contact_send_btn" type="button" class="contact_send_btn trans_200" value="Submit">Enviar</button>
+							</form>
+						</div>
+					</div>
+						
+				</div>
+
+				<div class="col-lg-4">
+					<div class="about">
+						<div class="about_title">Quieres decirnos algo importante?</div>
+						<!-- <p class="about_text">Si tienes una destreza en alg&uacute;n curso o crees que puedas aportar de alguna forma a nuestro equipo ponte en contacto con nosotros. Se parte que ChiquisCiencias!</p> -->
+						<p class="about_text">Si tienes algo importante que contarnos ponte en contacto con nosotros. Ayudanos a mejorar ChiquisCiencias!</p>
+
+						<div class="contact_info">
+							<ul>
+								<li class="contact_info_item">
+									<div class="contact_info_icon">
+										<i class='bx bx-envelope bx-sm color_icon_footer'></i>
+									</div>
+									<a href="mailto:chiquisciencias@gmail.com" style="color: #a5a5a5;">chiquisciencias@gmail.com</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="js/contact_custom.js"></script>
+</body>
+</html>

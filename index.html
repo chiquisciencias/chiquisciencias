@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ChiquisCiencias</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Course Project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+	<link rel="stylesheet" href="styles/modal.css">
+</head>
+<body>
+	<div class="super_container">
+
+		<!-- Header -->
+		<header class="header d-flex flex-row rounded-4">
+			<div class="header_content rounded-4 d-flex flex-row align-items-center">
+				<!-- Logo -->
+				<div class="logo_container">
+					<div class="logo">
+						<img class="object-fit-cover border rounded-circle" src="images/ft_chiquis_80.jpg" alt="">
+						<span>chiquisciencias</span>
+					</div>
+				</div>
+
+				<!-- Main Navigation -->
+				<nav class="main_nav_container">
+					<div class="main_nav">
+						<ul class="main_nav_list">
+							<li class="main_nav_item"><a href="/" view="home">Inicio</a></li>
+							<li class="main_nav_item"><a href="https://yisus-cry.onrender.com" target="_blank">Yisus</a></li>
+							<li class="main_nav_item"><a href="#contacto" id="changeView" view="contacto">Contacto</a></li>
+							<!-- <li class="main_nav_item"><a href="#equipo" class="texto-neon texto-parpadeante" id="changeView" view="equipo">&Uacute;nete</a></li> -->
+						</ul>
+					</div>
+				</nav>
+			</div>
+
+			<!-- Hamburger -->
+			<div class="hamburger_container">
+				<i class='bx bx-menu bx-lg trans_200'></i>
+			</div>
+
+		</header>
+		
+		<!-- Menu -->
+		<div class="menu_container menu_mm">
+
+			<!-- Menu Close Button -->
+			<div class="menu_close_container">
+				<div class="menu_close"></div>
+			</div>
+
+			<!-- Menu Items -->
+			<div class="menu_inner menu_mm">
+				<div class="menu menu_mm">
+					<ul class="menu_list menu_mm">
+						<li class="menu_item menu_mm"><a href="#">Inicio</a></li>
+						<li class="menu_item menu_mm"><a href="https://yisus-cry.onrender.com" target="_blank">Yisus</a></li>
+						<li class="menu_item menu_mm"><a href="#contacto" id="changeView" view="contacto">Contacto</a></li>
+					</ul>
+
+					<!-- Menu Social -->	
+					<div class="menu_social_container menu_mm">
+						<ul class="menu_social menu_mm">
+							<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+							<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+							<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li class="menu_social_item menu_mm"><a href="#"><i class="fab fa-twitter"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section id="content">
+			<!-- Home -->
+			<div class="home">
+
+				<!-- Hero Slider -->
+				<div class="hero_slider_container">
+					<div class="hero_slider owl-carousel">
+						
+						<!-- Hero Slide -->
+						<div class="hero_slide">
+							<div class="hero_slide_background" style="background-image:url(images/slider_background.jpg);"></div>
+							<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
+								<div class="hero_slide_content text-center">
+									<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Te <span>Ayudamos</span> siempre!</h1>
+								</div>
+							</div>
+						</div>
+						
+						<!-- Hero Slide -->
+						<div class="hero_slide">
+							<div class="hero_slide_background" style="background-image:url(images/slider_background.jpg);"></div>
+							<div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
+								<div class="hero_slide_content text-center">
+									<h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Te <span>Ayudamos</span> siempre!</h1>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+			<div class="hero_boxes">
+				<div class="hero_boxes_inner">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4 hero_box_col">
+								<div class="hero_box d-flex flex-row align-items-center justify-content-start rounded-4">
+									<i class='bx bxs-graduation bx-lg bx_svg'></i>
+									<div class="hero_box_content">
+										<h2 class="hero_box_title">Academia</h2>
+										<a data-bs-toggle="modal" data-bs-target="#modalAcademia" class="hero_box_link">ver m&aacute;s</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 hero_box_col">
+								<div class="hero_box d-flex flex-row align-items-center justify-content-start rounded-4">
+									<i class='bx bx-chalkboard bx-lg bx_svg'></i>
+									<div class="hero_box_content">
+										<h2 class="hero_box_title">Ayuda particular</h2>
+										<a class="hero_box_link" data-bs-toggle="modal" data-bs-target="#modalAyudaParticular">ver m&aacute;s</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 hero_box_col">
+								<div class="hero_box d-flex flex-row align-items-center justify-content-start rounded-4">
+									<i class="bx bxs-group bx-lg bx_svg"></i>
+									<div class="hero_box_content">
+										<h2 class="hero_box_title">Yisus</h2>
+										<a href="https://yisus-cry.onrender.com" target="_blank" class="hero_box_link">ver m&aacute;s</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Services -->
+			<div class="services page_section">
+				
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="section_title text-center">
+								<h1>Nuestros Servicios</h1>
+							</div>
+						</div>
+					</div>
+
+					<div class="row services_row">
+						<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+							<div class="icon_container d-flex flex-column justify-content-end">
+								<i class='bx bxs-graduation bx-lg'></i>						
+							</div>
+							<h3>Academia</h3>
+							<p>Con nuestra academia podr&aacute; mejorar en distintas &aacute;reas, con horarios muy flexibles para que no te pierdas de nada.</p>
+						</div>
+						<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+							<div class="icon_container d-flex flex-column justify-content-end">
+								<i class='bx bxs-group bx-lg'></i>
+							</div>
+							<h3>Comunidad - Yisus</h3>
+							<p>Nuestra comunidad activa te ayudar&aacute; siempre con cualquier problema que tengas y a un muy bajo costo!</p>
+						</div>
+						<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+							<div class="icon_container d-flex flex-column justify-content-end">
+								<i class='bx bx-chalkboard bx-lg'></i>
+							</div>
+							<h3>Ayuda particular</h3>
+							<p>Tienes un examen pr&oacute;ximo? Te ayudamos en CV, EV, trabajos parciales, tareas, etc. Siempre a tu disposici&oacute;n</p>
+						</div>
+						<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+							<div class="icon_container d-flex flex-column justify-content-end">
+								<i class='bx bx-library bx-lg'></i>
+							</div>
+							<h3>Nuestra librer&iacute;a</h3>
+							<p>Ay&uacute;danos a hacer crecer nuestra gran librer&iacute;a de conocimiento. Contamos con tareas, pr&aacute;cticas, EV, CV, etc.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Testimonials -->
+			<div class="testimonials page_section">
+				<!-- <div class="testimonials_background" style="background-image:url(images/testimonials_background.jpg)"></div> -->
+				<div class="testimonials_background_container prlx_parent">
+					<div class="testimonials_background prlx" style="background-image:url(images/testimonials_background.jpg);"></div>
+				</div>
+				<div class="container">
+
+					<div class="row">
+						<div class="col">
+							<div class="section_title text-center">
+								<h1>Que dicen sobre nosotros</h1>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-lg-10 offset-lg-1">
+							
+							<div class="testimonials_slider_container">
+
+								<!-- Testimonials Slider -->
+								<div class="owl-carousel owl-theme testimonials_slider">
+									
+									<!-- Testimonials Item -->
+									<div class="owl-item">
+										<div class="testimonials_item text-center">
+											<div class="quote">“</div>
+											<p class="testimonials_text">In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.</p>
+											<div class="testimonial_user">
+												<div class="testimonial_image mx-auto">
+													<img src="images/ft_alessandro.jpg" alt="">
+												</div>
+												<div class="testimonial_name">Alessandro Medina</div>
+												<div class="testimonial_title">Estudiante</div>
+											</div>
+										</div>
+									</div>
+
+									<!-- Testimonials Item -->
+									<div class="owl-item">
+										<div class="testimonials_item text-center">
+											<div class="quote">“</div>
+											<p class="testimonials_text">In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.</p>
+											<div class="testimonial_user">
+												<div class="testimonial_image mx-auto">
+													<img src="images/testimonials_user.jpg" alt="">
+												</div>
+												<div class="testimonial_name">Joaquin Egu&iacute;a</div>
+												<div class="testimonial_title">Estudiante</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Register -->
+			<div class="register">
+				<div class="container-fluid">
+					<div class="row row-eq-height diagonal-container" style="width: 100vw;background: var(--negro);">
+						<div class="col-lg-6 nopadding box-left">
+							
+							<!-- Register -->
+							<div class="d-none d-sm-block register_section d-flex flex-column align-items-center justify-content-center">
+								<div class="register_content text-center">
+									<div>
+										<img src="images/collab.svg" class="col-lg-12 col-sm-6 object-fit-contain" alt="chiquisciencias-team">
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col-lg-6 nopadding box-right">
+							
+							<!-- inscripcion -->
+							<div class="search_section d-flex flex-column align-items-center justify-content-center">
+								<div class="search_background" style="background-image:url(images/search_background.jpg);"></div>
+								<div class="search_content text-center">
+									<h1 class="search_title">Deseas m&aacute;s informaci&oacute;n?</h1>
+									<form id="formInfo" class="search_form">
+										<select id="search_form_name" class="input_field search_form_name" type="text" placeholder="Course Name" required="required" data-error="Course name is required.">
+											<option value="0" disabled selected>Seleccionar Servicio</option>
+											<option value="Academia">Academia</option>
+											<option value="Particular">Ayuda Particular</option>
+										</select>
+										<input id="email" class="input_field search_form_category" type="email" placeholder="Correo electr&oacute;nico">
+										<button id="btn_enviar" type="submit" class="search_submit_button trans_200" value="Submit">Enviar</button>
+									</form>
+								</div> 
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Events -->
+			<!--
+			<div class="events page_section">
+				<div class="container">
+					
+					<div class="row">
+						<div class="col">
+							<div class="section_title text-center">
+								<h1>Upcoming Events</h1>
+							</div>
+						</div>
+					</div>
+					
+					<div class="event_items">
+
+						<div class="row event_item">
+							<div class="col">
+								<div class="row d-flex flex-row align-items-end">
+
+									<div class="col-lg-2 order-lg-1 order-2">
+										<div class="event_date d-flex flex-column align-items-center justify-content-center">
+											<div class="event_day">07</div>
+											<div class="event_month">January</div>
+										</div>
+									</div>
+
+									<div class="col-lg-6 order-lg-2 order-3">
+										<div class="event_content">
+											<div class="event_name"><a class="trans_200" href="#">Student Festival</a></div>
+											<div class="event_location">Grand Central Park</div>
+											<p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor.</p>
+										</div>
+									</div>
+
+									<div class="col-lg-4 order-lg-3 order-1">
+										<div class="event_image">
+											<img src="images/event_1.jpg" alt="https://unsplash.com/@theunsteady5">
+										</div>
+									</div>
+
+								</div>	
+							</div>
+						</div>
+
+						<div class="row event_item">
+							<div class="col">
+								<div class="row d-flex flex-row align-items-end">
+
+									<div class="col-lg-2 order-lg-1 order-2">
+										<div class="event_date d-flex flex-column align-items-center justify-content-center">
+											<div class="event_day">07</div>
+											<div class="event_month">January</div>
+										</div>
+									</div>
+
+									<div class="col-lg-6 order-lg-2 order-3">
+										<div class="event_content">
+											<div class="event_name"><a class="trans_200" href="#">Open day in the Univesrsity campus</a></div>
+											<div class="event_location">Grand Central Park</div>
+											<p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor.</p>
+										</div>
+									</div>
+
+									<div class="col-lg-4 order-lg-3 order-1">
+										<div class="event_image">
+											<img src="images/event_2.jpg" alt="https://unsplash.com/@claybanks1989">
+										</div>
+									</div>
+
+								</div>	
+							</div>
+						</div>
+
+						<div class="row event_item">
+							<div class="col">
+								<div class="row d-flex flex-row align-items-end">
+
+									<div class="col-lg-2 order-lg-1 order-2">
+										<div class="event_date d-flex flex-column align-items-center justify-content-center">
+											<div class="event_day">07</div>
+											<div class="event_month">January</div>
+										</div>
+									</div>
+
+									<div class="col-lg-6 order-lg-2 order-3">
+										<div class="event_content">
+											<div class="event_name"><a class="trans_200" href="#">Student Graduation Ceremony</a></div>
+											<div class="event_location">Grand Central Park</div>
+											<p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor.</p>
+										</div>
+									</div>
+
+									<div class="col-lg-4 order-lg-3 order-1">
+										<div class="event_image">
+											<img src="images/event_3.jpg" alt="https://unsplash.com/@juanmramosjr">
+										</div>
+									</div>
+
+								</div>	
+							</div>
+						</div>
+
+					</div>
+						
+				</div>
+			</div>
+			-->
+		</section>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+
+				<!-- Footer Content -->
+				<div class="footer_content">
+					<div class="row">
+
+						<!-- Footer Column - About -->
+						<div class="col-lg-3 footer_col">
+
+							<!-- Logo -->
+							<div class="logo_container">
+								<div class="logo">
+									<div>
+										<img class="object-fit-cover border rounded-circle" src="images/ft_chiquis_80.jpg" alt="">
+									</div>
+									<span>chiquisciencias</span>
+								</div>
+							</div>
+						</div>
+
+						<!-- Footer Column - Menu -->
+
+						<div class="col-lg-3 footer_col">
+							<div class="footer_column_title">Menu</div>
+							<div class="footer_column_content">
+								<ul>
+									<li class="footer_list_item"><a href="#">Inicio</a></li>
+									<li class="footer_list_item"><a href="https://yisus-cry.onrender.com" target="_blank">Yisus</a></li>
+									<li class="footer_list_item"><a href="#contacto" id="changeView" view="contacto">Contacto</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Footer Column - Usefull Links -->
+
+						<div class="col-lg-3 footer_col">
+							<div class="footer_column_title">Links Populares</div>
+							<div class="footer_column_content">
+								<ul>
+									<li class="footer_list_item"><a href="#">Testimonios</a></li>
+									<li class="footer_list_item"><a href="#">FAQ</a></li>
+									<li class="footer_list_item"><a href="https://yisus-cry.onrender.com" target="_blank">Communidad</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Footer Column - Contact -->
+
+						<div class="col-lg-3 footer_col">
+							<div class="footer_column_title">Contacto</div>
+							<div class="footer_column_content">
+								<ul>
+									<li class="footer_contact_item">
+										<div class="footer_contact_icon">
+											<i class='bx bx-envelope bx-sm color_icon_footer'></i>
+										</div> <a href="mailto:chiquisciencias@gmail.com" style="color: #a5a5a5;">chiquisciencias@gmail.com</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<!-- Footer Copyright -->
+
+				<div class="footer_bar d-flex flex-column flex-sm-row align-items-center">
+					<div class="footer_copyright">
+						<span>
+							Copyright &copy;
+							<script>document.write(new Date().getFullYear());</script> 
+							All rights reserved | This template is made with
+							<i class="fa fa-heart" aria-hidden="true"></i> by 
+							<a href="https://colorlib.com" target="_blank">Colorlib</a>
+						</span>
+					</div>
+					<div class="footer_social ml-sm-auto">
+						<ul class="menu_social">
+							<li class="menu_social_item"><a href="https://www.instagram.com/chiquiciencias/" target="_blank"><i class='bx bxl-instagram bx-md'></i></a></li>
+							<li class="menu_social_item"><a href="https://www.facebook.com/people/ChiquisCiencia/100092621007397/" target="_blank"><i class='bx bxl-facebook bx-md'></i></a></li>
+							<li class="menu_social_item"><a href="https://twitter.com/chiquisCiencia" target="_blank"><i class='bx bxl-twitter bx-md'></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+	</div>	
+	<div class="modal fade" id="modalAyudaParticular" tabindex="-1" role="dialog" aria-labelledby="modalAyudaParticularTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="close d-flex align-items-center justify-content-center" data-bs-dismiss="modal" aria-label="Close">
+				<i class='bx bx-x bx-lg'></i>
+			  </button>
+			</div>
+			<div class="row">
+				<div class="col-md mb-md-0 mb-5">
+					<div class="modal-body p-0">
+						<h3 class="mb-4">Obten ayuda de inmediato!</h3>
+						<form action="#" id="formProfe">
+							<div class="form-group">
+								<input type="text" name="nombres" class="form-control" placeholder="Nombres">
+							</div>
+							<div class="form-group">
+								<input type="text" name="codigo" class="form-control" placeholder="Codigo de estudiante">
+							</div>
+							<div class="form-group">
+								<label for="selectPrioridad" class="form-label">Para cuando necesitas ayuda?</label>
+								<select class="form-select" name="prioridad" id="selectPrioridad">
+									<option disabled selected>Seleccionar</option>
+									<option value="1">Ayer</option>
+									<option value="2">Hoy</option>
+									<option value="3">Esta semana</option>
+									<option value="4">Para luego</option>
+								</select>
+							</div>
+							<div class="mb-3">
+								<label for="descripcion" class="form-label">Describe en que tienes problemas</label>
+								<textarea class="form-control" name="descripcion" id="descripcion" rows="3"></textarea>
+							</div>
+							<div class="form-group">
+								<button type="submit" class="form-control btn btn-primary rounded submit px-3">Enviar</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		  </div>
+		</div>
+	</div>
+	<div class="modal fade" id="modalAcademia" tabindex="-1" role="dialog" aria-labelledby="modalAyudaParticularTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="close d-flex align-items-center justify-content-center" data-bs-dismiss="modal" aria-label="Close">
+				<i class='bx bx-x bx-lg'></i>
+			  </button>
+			</div>
+			<div class="row">
+				<div class="col-md mb-md-0 mb-5">
+					<div class="modal-body p-0">
+						<h3 class="mb-4">Mejora tu rendimiento con nosotros!</h3>
+						<form action="#" id="formAcademia">
+							<div class="form-group">
+								<input type="text" name="nombres" class="form-control" placeholder="Nombres">
+							</div>
+							<div class="form-group">
+								<input type="text" name="codigo" class="form-control" placeholder="Codigo de estudiante">
+							</div>
+							<div class="form-group">
+								<input type="text" name="email" class="form-control" placeholder="personal@email.com">
+							</div>
+							<div class="form-group">
+								<label for="selectPrioridad" class="form-label">Escoje el curso</label>
+								<select class="form-select" name="curso" id="selectPrioridad">
+									<option disabled selected>Seleccionar</option>
+									<option value="progra">Programaci&oacute;n</option>
+									<option value="calc1">C&aacute;lculo 1</option>
+									<option value="calc2">C&aacute;lculo 2</option>
+									<option value="MateDisc">Mate Discreta</option>
+									<option value="fisica">F&iacute;sica</option>
+									<option value="otro">otro</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<button type="submit" class="form-control btn btn-primary rounded submit px-3">Enviar</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		  </div>
+		</div>
+	</div>
+</body>
+<script src="js/index.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="js/custom.js"></script>
+</html>
