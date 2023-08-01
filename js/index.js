@@ -28,7 +28,7 @@ function load(name){
         return;
     }
     
-    fetch(`/${name}.html`)
+    fetch(`/chiquisciencias/${name}.html`)
     .then(res => res.text())
     .then(data => {
         content.innerHTML = data; 
